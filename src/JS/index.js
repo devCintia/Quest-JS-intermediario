@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
             if (input.value == "") {
                 input.style.borderColor = "#F52E2E";
                 input.nextElementSibling.style.visibility = 'visible'
-                console.log(input.nextElementSibling)
             }
         })
     })
