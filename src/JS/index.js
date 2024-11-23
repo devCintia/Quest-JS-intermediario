@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", ()=> {
 
-
     const botaoEnviar = document.getElementById("botaoEnviar");
     const inputsFormulario = document.querySelectorAll(".input");
-    const preenchido = document.querySelector(".preenchido");
 
 
     botaoEnviar.addEventListener('click', () => {
@@ -28,7 +26,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
             }
         })
     })
-});
+})
 
 
 
