@@ -23,6 +23,7 @@ main {
     height: 120px;
     margin: 145px 50px;
     color: #ffffff;
+    
 }
 
 .mensagem h1 {
@@ -57,7 +58,7 @@ main {
 }
 
 .inputsFormulario input {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
     height: 35px;
     padding-left: 15px;
@@ -67,7 +68,7 @@ main {
 }
 
 .inputsFormulario textarea {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
     height: 80px;
     padding-left: 15px;
@@ -75,6 +76,7 @@ main {
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: #A8A8A8;
+    resize: none;
 }
 
 .final {
@@ -105,4 +107,12 @@ main {
     margin-top: 0;
     margin-bottom: 7px;
     visibility: hidden;
+}
+
+.valido{
+    border: 2px solid green;
+}
+
+.erro{
+    border: 2px solid red;
 }
